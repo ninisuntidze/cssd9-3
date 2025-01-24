@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: #0E0E0E;
+
+}
+
+.menu {
+    display: flex;
+    max-width: 1440px;
+    padding: 16px 300px;
+
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.movies {
+    color: #FFF;
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
+
+.Series {
+    color: #7B7B7B;
+    display: flex;
+    text-align: center;
+    gap: 24px;
+}
+
+.tv {
+    color: #7B7B7B;
+    display: flex;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    gap: 48px;
+}
+
+.filmbox {
+    display: flex;
+    max-width: 1440px;
+
+    gap: 48px;
+}
+
+.groupdiv {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.name {
+    color: #FFF;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile {
+    border-radius: 200px;
+    border: 1px solid #A00;
+    width: 40px;
+    height: 40px;
+}
